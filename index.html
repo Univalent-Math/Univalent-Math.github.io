@@ -161,7 +161,24 @@
 
 <!--<h4>Carlo Angiuli or Anders M&ouml;rtberg &mdash; TBA</h4>-->
 
-<h4>Jesper Cockx &mdash; TBA</h4>
+<h4>Jesper Cockx &mdash; Rewriting Type Theory</h4>
+
+<p>Dependently typed languages such as Coq and Agda can statically
+guarantee the correctness of our proofs and programs. To provide this
+guarantee, they restrict users to certain schemes – such as strictly
+positive datatypes, complete case analysis, and well-founded induction
+– that are known to be safe. However, these restrictions limit the
+expressivity of the language and can make programs and proofs hard to
+write. In this talk I present Rewriting Type Theory (RTT), a
+dependently typed language with user-defined higher-order rewrite
+rules. These rewrite rules can be used to ease reasoning about
+existing definitions, and to extend the language with new constructs
+such as quotient types and exceptions. To ensure subject reduction in
+the presence of rewrite rules, I present a general method to check
+confluence based on Tait and Martin-Löf's triangle property of
+parallel reduction. I have implemented rewrite rules as an extension
+to Agda, and a formalization of the metatheoretic properties of RTT
+using MetaCoq is currently work in progress.</p>
 
 <h4>Kuen-Bang Hou (Favonia) &mdash;
 Nullable Compositions</h4>
